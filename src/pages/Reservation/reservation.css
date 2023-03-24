@@ -1,0 +1,50 @@
+.reservation-container {
+    display: flex;
+    padding: 1rem;
+}
+@media (max-width: 768px) {
+    .reservation-container{
+        flex-direction: column;
+    }
+}
+
+.reservation-user {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+.reservation-user-field h3 {
+    font-size: 1.5rem;
+}
+.reservation-room {
+    flex: .7;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+}
+.reservation-room-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    position: sticky;
+    top: 5rem;
+}
+
+.reservation-room .room-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.room-detail-info {
+    display: flex;
+    justify-content: space-between;
+}
+.room-detail-info.room-detail-price {
+    background-color: #07ac07;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+}

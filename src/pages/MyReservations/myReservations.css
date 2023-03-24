@@ -1,0 +1,58 @@
+.myreservations-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.myreservation-item {
+    display: flex;
+    padding: 1rem;
+    background-color: #f5f6f8;
+    border: 1px solid #e8e8e8;
+    transition: all .5s;
+    border-left: 4px solid #07ac07;
+    border-radius: 5px;
+    gap: 1rem;
+}
+.myreservation-item:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.06);
+
+}
+.myreservation-item .myreservation-item-image {
+    width: 250px;
+}
+.myreservation-item .myreservation-item-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+.myreservation-item .myreservation-item-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.myreservation-item-date {
+    font-size: .9rem;
+    font-weight: 600;
+    color: #07ac07;
+    margin-top: 1rem;
+}
+.myreservation-item-price {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    align-self: center;
+    justify-content: center;
+}
+.myreservation-item-price strong {
+    font-size: 1.5rem;
+    color: #07ac07;
+}
+.myreservation-item-price span {
+    color: var(--color-primary);
+    font-size: .9rem;
+}
+.myreservation-item-peope {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #f5b144;
+}

@@ -1,0 +1,136 @@
+.headerContainer {
+    position: relative;
+    padding: 7rem 0rem;
+    background-color: #071655;
+}
+
+.headerContainer .headerTitle {
+    display: flex;
+    align-items: center;
+    width: var(--container-width-ms);
+    margin: 0 auto;
+    color: var(--color-white);
+}
+
+.headerContainer .headerTitle h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.headerSearchContainer {
+    width: 100%;
+    position: absolute;
+    bottom: -2rem;
+}
+
+.headerSearch {
+    display: flex;
+
+    justify-content: space-around;
+    width: var(--container-width-ms);
+    background-color: var(--color-white);
+    margin: 0 auto;
+    border-radius: .5rem;
+    padding: .5rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, .5);
+    gap: 1rem;
+
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 1rem;
+    flex: 1;
+    border: 2px solid black;
+    border-radius: .5rem;
+}
+
+.headerSearchText {
+    cursor: pointer;
+    color: var(--color-primary-variant);
+}
+
+.headerSearchItem .icon {
+    width: 20px;
+    height: 20px;
+    color: var(--color-primary-variant);
+}
+
+#headerBtn {
+    flex: none;
+    border: none;
+}
+
+.headerBtn {
+    background-color: var(--color-primary);
+    border: none;
+    color: var(--color-white);
+    padding: 1rem 2rem;
+    margin-left: auto;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.headerSearchMobile {
+    display: none;
+    align-items: center;
+
+    width: var(--container-width-ms);
+    background-color: var(--color-primary-variant);
+    color: var(--color-white);
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    gap: .5rem;
+}
+.dateRange {
+    position: relative;
+}
+.dateContainer {
+    position: absolute;
+    top: 1rem;
+}
+.peopleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px ;
+    position: absolute;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    top: 2rem;
+}
+.popupContent .headerSearch {
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    .mobile {
+        display: none;
+    }
+
+    .headerSearchMobile {
+        display: flex;
+    }
+
+    .headerImg {
+        display: none;
+    }
+
+    .dateContainer {
+        top: 40% !important;
+        left: 25%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .dateContainer {
+        left: 0rem;
+    }
+}

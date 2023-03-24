@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+:root {
+  --color-bg: #F9F9F9;
+  --color-bg-variant: #d8d8d8;
+  --color-primary: #071655;
+  --color-primary-variant: #394779;
+  --color-white: #fff;
+  --color-light: #a5a5a5;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-ms: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-bg);
+  line-height: 1.7;
+}
+
+/*=================================================================*/
+/*                      General Styles                          
+/*=================================================================*/
+.content {
+  width: var(--container-width-ms);
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-variant);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*=================================================================*/
+/*                      Media Queries (Medium Devices)                         
+/*=================================================================*/
+
+@media screen and (max-width: 1024px) {}
+
+/*=================================================================*/
+/*                      Media Queries (Small Devices)                         
+/*=================================================================*/
+
+@media screen and (max-width: 600px) {}

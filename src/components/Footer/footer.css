@@ -1,0 +1,29 @@
+footer {
+    margin-top: 5rem;
+    padding: 1rem 0;
+    background-color: #e6e6e6;
+}
+
+.footerWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerLinkBlock .blockTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footerLinkBlock ul li a {
+    display: flex;
+    font-weight: 300;
+    padding: .5rem 0;
+}
+
+.footerLinkBlock ul li a:hover {
+    color: var(--color-primary-variant);
+}
+
+.copyright {
+    text-align: center;
+}

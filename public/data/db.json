@@ -1,0 +1,171 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "email":"ogunec@hotmail.com",
+            "password":"123456",
+            "myReserved":[
+                {
+                    "id": 1,
+                    "roomId": 1,
+                    "startDate": "03/25/2023",
+                    "endDate": "03/27/2023"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "email":"user@hotmail.com",
+            "password":"123456",
+            "myReserved":[
+                
+            ]
+        }
+    ],
+    "rooms":[
+        {
+            "id": 1,
+            "name":"Deluxe Oda",
+            "image": "room1.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "2",
+                "child": "1"
+            },
+            "price": "3.420"
+        },
+        {
+            "id": 2,
+            "name":"Deluxe Superior Oda",
+            "image": "room2.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "2",
+                "child": "2"
+            },
+            "price": "3.591"
+        },
+        {
+            "id": 3,
+            "name":"Deluxe Bahçe Aile Odası",
+            "image": "room7.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "3",
+                "child": "2"
+            },
+            "price": "4.788"
+        },
+        {
+            "id": 4,
+            "name":"Deluxe Aile Odası",
+            "image": "room4.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "3",
+                "child": "1"
+            },
+            "price": "5.027"
+        },
+        {
+            "id": 5,
+            "name":"Deluxe Dublex Aile Odası",
+            "image": "room5.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "4",
+                "child": "2"
+            },
+            "price": "5.027"
+        },
+        {
+            "id": 6,
+            "name":"Deluxe Bosphorus",
+            "image": "room6.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "1",
+                "child": "1"
+            },
+            "price": "3.359"
+        },
+        {
+            "id": 7,
+            "name":"Bosphorus Teras Oda",
+            "image": "room8.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "2",
+                "child": "0"
+            },
+            "price": "4.3150"
+        },
+        {
+            "id": 8,
+            "name":"Teraslı Junior Suit",
+            "image": "room9.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "2",
+                "child": "1"
+            },
+            "price": "2950"
+        },
+        {
+            "id": 9,
+            "name":"Executive Suit",
+            "image": "room10.jpg",
+            "reserved":[
+                {
+                    "date": "08/13/2022",
+                    "hours": "21:00"
+                }
+            ],
+            "numberOfPeople": {
+                "adult": "1",
+                "child": "0"
+            },
+            "price": "3.670"
+        }
+    ]
+}
