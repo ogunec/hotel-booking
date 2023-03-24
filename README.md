@@ -2,6 +2,32 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Screenshots
+
+This is our Homepage.
+![hotel-booking!](/public/screenshots/anasayfa.png "index page")
+
+This is our login page.
+![hotel-booking!](/public/screenshots/login.png "login page")
+
+This is our rezervation page.
+![hotel-booking!](/public/screenshots/rezervasyon.png "rezervation page")
+
+This is our my rezervation page.
+![hotel-booking!](/public/screenshots/rezervasyonlarım.png "myrezervation page")
+
+This is our about us page.
+![hotel-booking!](/public/screenshots/hakkımızda.png "about us page")
+
+This is our about us content.
+![hotel-booking!](/public/screenshots/hakkımızda2.png "about us page")
+
+This is our contact page.
+![hotel-booking!](/public/screenshots/iletişim.png "contact page")
+
+
+I will add new features to this project, which I created in order to reinforce what I learned during my .NET learning process.
+
 ## Available Scripts
 
 In the project directory, you can run:
